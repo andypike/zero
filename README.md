@@ -7,6 +7,8 @@ the whole Rails stack.
 
 This is just a spike so there are no tests and the code is of poor quality.
 
+Take a look at http://www.sitepoint.com/zeromq-ruby for further examples.
+
 Prerequisites
 -------------
 
