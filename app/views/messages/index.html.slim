@@ -1,0 +1,8 @@
+h1 Messages
+
+= simple_form_for :message, :url => messages_path do |f|
+  = f.input :text
+  = f.submit
+
+- @messages.each do |message|
+  p= message.text
