@@ -13,6 +13,7 @@ brew install zeromq
 Setup
 -----
 
+```
 git clone git@github.com:andypike/zero.git
 cd zero
 cp config/example.database.yml config/database.yml
@@ -23,6 +24,7 @@ psql postgres
 bundle
 rake db:create db:migrate
 rails s
+```
 
 ZeroMQ server
 -------------
