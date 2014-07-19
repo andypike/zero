@@ -1,7 +1,11 @@
 ZeroMQ Spike
 ============
 
-Just experimenting around with using ZeroMQ and Rails.
+Just experimenting around with using ZeroMQ and Rails. In the MessagesController we build an xml request and then send it via ZeroMQ
+to our server. The server then parses the xml and adds the message to the database. To conserve memory, the server only loads ActiveRecord rather than
+the whole Rails stack.
+
+This is just a spike so there are no tests and the code is of poor quality.
 
 Prerequisites
 -------------
